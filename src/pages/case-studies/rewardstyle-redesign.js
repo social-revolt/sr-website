@@ -1,9 +1,10 @@
 import React from "react"
-import Header from "../../components/header"
-import Footer from "../../components/footer"
-import TestimonialSlider from "../../components/TestimonialSlider"
-import "../../styles/main.scss"
+import Header from "components/header"
+import Footer from "components/footer"
+import TestimonialSlider from "components/TestimonialSlider"
+import "styles/main.scss"
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax'
+import Swiper from 'react-id-swiper/lib/ReactIdSwiper.full'
 
 export default () => (
 	<div className="case-study">
@@ -145,20 +146,18 @@ export default () => (
 				<div className="row top-xs center-xs">
 					<div className="col-xs-12">
 						<div className="box">
-							<div className="swiper-container">
-							    <div className="swiper-wrapper">
-							        <div className="swiper-slide">
-							        	<img src="../images/image-1.jpg" />
-							        </div>
-							        <div className="swiper-slide"><img src="../images/image-1.jpg" /></div>
-							        <div className="swiper-slide"><img src="../images/image-1.jpg" /></div>
-							    </div>
-							    <div className="swiper-pagination"></div>
+							<Swiper>
+						        <div className="swiper-slide">
+						        	<img src="../images/image-1.jpg" />
+						        </div>
+						        <div className="swiper-slide"><img src="../images/image-1.jpg" /></div>
+						        <div className="swiper-slide"><img src="../images/image-1.jpg" /></div>
+						    	<div className="swiper-pagination"></div>
 
-							    <div className="actions">
-								    <div className="swiper-button-prev"></div>
-								    <div className="swiper-button-next"></div>
-								</div>
+							</Swiper>
+							<div className="actions">
+							    <div className="swiper-button-prev"></div>
+							    <div className="swiper-button-next"></div>
 							</div>
 						</div>
 					</div>

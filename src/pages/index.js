@@ -1,9 +1,9 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import TestimonialSlider from "../components/TestimonialSlider"
-import ServicesSlider from "../components/ServicesSlider"
-import "../styles/main.scss"
+import Header from "components/header"
+import Footer from "components/footer"
+import TestimonialSlider from "components/TestimonialSlider"
+import ServicesSlider from "components/ServicesSlider"
+import "styles/main.scss"
 import { Link } from "gatsby"
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 
