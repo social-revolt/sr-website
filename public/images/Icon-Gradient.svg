@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="100px" viewBox="0 0 103 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon-Gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="8.43421418%" y1="2.87020454%" x2="99.8767458%" y2="87.2468647%" id="linearGradient-1">
+            <stop stop-color="#F5F4EC" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#F5F4EC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="00_LandingPage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LandingPage-Desktop-1440+" transform="translate(-777.000000, -1977.000000)" fill="url(#linearGradient-1)">
+            <g id="Case-Study" transform="translate(0.000000, 1800.000000)">
+                <g id="Banner">
+                    <path d="M880,187.465215 C880,181.709497 875.298485,177 869.552524,177 L787.447476,177 C781.700912,177 777,181.709497 777,187.465215 L777,244.299751 C777,246.881795 777.951031,249.248316 779.51318,251.078143 C781.649082,253.813528 784.995167,255.485789 788.976478,255.489411 C795.069583,255.495448 801.162689,255.491222 807.256397,255.491222 L808.418366,255.491222 L808.418366,277 C808.840845,276.601555 809.101204,276.37094 809.347097,276.124025 C815.986835,269.462751 822.630791,262.8051 829.254858,256.127527 C829.722539,255.656033 830.189616,255.47613 830.847141,255.477337 C843.36784,255.494844 855.887334,255.507522 868.408033,255.483374 C872.182624,255.475526 875.4817,253.71452 877.586262,250.968873 C879.091157,249.155345 880,246.828669 880,244.299751 L880,187.465215 Z" id="Icon-Gradient"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
