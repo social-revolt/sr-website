@@ -26,10 +26,10 @@ export default () => (
 						Data-driven marketing for brands striving to grow.</p>
 
 						<ul>
-							<li><Link to='https://www.facebook.com/SocialRevolt/'><i className="fab fa-facebook-f"></i></Link></li>
-							<li><Link to='https://twitter.com/socialrevolt_?lang=en'><i className="fab fa-twitter"></i></Link></li>
-							<li><Link to='https://www.instagram.com/socialrevolt/?hl=en'><i className="fab fa-instagram"></i></Link></li>
-							<li><Link to='https://www.linkedin.com/company/socialrevoltagency/'><i className="fab fa-linkedin"></i></Link></li>
+							<li><a href='https://www.facebook.com/SocialRevolt/' target="_blank"><i className="fab fa-facebook-f"></i></a></li>
+							<li><a href='https://twitter.com/socialrevolt_?lang=en' target="_blank"><i className="fab fa-twitter"></i></a></li>
+							<li><a href='https://www.instagram.com/socialrevolt/?hl=en' target="_blank"><i className="fab fa-instagram"></i></a></li>
+							<li><a href='https://www.linkedin.com/company/socialrevoltagency/' target="_blank"><i className="fab fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
