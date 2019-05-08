@@ -14,7 +14,7 @@ export default () => (
 			    className="your-class"
 			    layers={[
 			        {
-			            image: '../images/influencer.png',
+			            image: '../../images/influencer.png',
 			            amount: 0.6,
 			        }
 			    ]}
@@ -96,7 +96,7 @@ export default () => (
 				<div className="row middle-xs center-xs">
 					<div className="col-xs-12">
 						<div className="box">
-							<img src="../images/photo.jpg" />
+							<img src="../../images/photo.jpg" />
 						</div>
 					</div>
 				</div>
@@ -148,10 +148,10 @@ export default () => (
 						<div className="box">
 							<Swiper>
 						        <div className="swiper-slide">
-						        	<img src="../images/image-1.jpg" />
+						        	<img src="../../images/image-1.jpg" />
 						        </div>
-						        <div className="swiper-slide"><img src="../images/image-1.jpg" /></div>
-						        <div className="swiper-slide"><img src="../images/image-1.jpg" /></div>
+						        <div className="swiper-slide"><img src="../../images/image-1.jpg" /></div>
+						        <div className="swiper-slide"><img src="../../images/image-1.jpg" /></div>
 						    	<div className="swiper-pagination"></div>
 
 							</Swiper>
