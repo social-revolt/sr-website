@@ -43,9 +43,15 @@ font-family: "Super";
 
 html {
 	margin: 0px !important;
+	max-width: 100%;
+	width: 100%;
+	overflow-x: hidden;
 	body {
 		position: relative;
 		margin: 0px;
+		max-width: 100%;
+		width: 100%;
+		overflow-x: hidden;
 		header {
 			position: absolute;
 			top: 0px;
