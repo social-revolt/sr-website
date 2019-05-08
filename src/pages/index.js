@@ -7,6 +7,7 @@ import "styles/main.scss"
 import { Link } from "gatsby"
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 import { Helmet } from "react-helmet"
+import Swiper from 'react-id-swiper/lib/ReactIdSwiper.full'
 
 export default () => (
   <div>
@@ -65,37 +66,68 @@ export default () => (
 	</section>
 
 	<section className="case-study-slider">
-		<div className="bg"></div>
-		<img src="../images/influencersquare.jpg" className="mobile" />
-		<div className="container">
-			<div className="row middle-md top-xs">
-				<div className="col-xs-12 col-md-6 last-xs first-md">
-					<div className="box">
-						<h3>Client Solutions in Action</h3>
-						<h1>A brand built on <br />influencer innovation.</h1>
-						<p>A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
-						<Link to="/case-studies/rewardstyle-redesign" className="link">View case study</Link>
-					</div>
-					</div>
-				<div className="col-xs-12 col-md-6 first-xs last-md">
-					<div className="box images">
+		<Swiper>
+			<div>
+				<div className="bg"></div>
+				<img src="../images/influencersquare.jpg" className="mobile" />
+				<div className="container">
+					<div className="row middle-md top-xs">
+						<div className="col-xs-12 col-md-6 last-xs first-md">
+							<div className="box">
+								<h3>Client Solutions in Action</h3>
+								<h1>A brand built on <br />influencer innovation.</h1>
+								<p>A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
+								<Link to="/case-studies/rewardstyle-redesign" className="link">View case study</Link>
+							</div>
+							</div>
+						<div className="col-xs-12 col-md-6 first-xs last-md">
+							<div className="box images">
 
-						<img src="../images/Icon-Gradient.svg" className="top" />
-						<img src="../images/Icon-Hero.png" className="hero" />
-						<img src="../images/Icon-Pattern.svg" className="pattern" />
+								<img src="../images/Icon-Gradient.svg" className="top" />
+								<img src="../images/Icon-Hero.png" className="hero" />
+								<img src="../images/Icon-Pattern.svg" className="pattern" />
+							</div>
+						</div>
+					</div>
+					<div className="slider-numbers">
+						<ul>
+							<li className="active">01</li>
+							<li>02</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div className="slider-numbers">
-				<ul>
-					<li>01</li>
-					<li>02</li>
-					<li className="active">03</li>
-					<li>04</li>
-					<li>05</li>
-				</ul>
+			<div>
+				<div className="bg mfs"></div>
+				<img src="../images/influencersquare.jpg" className="mobile" />
+				<div className="container">
+					<div className="row middle-md top-xs">
+						<div className="col-xs-12 col-md-6 last-xs first-md">
+							<div className="box">
+								<h3>Client Solutions in Action</h3>
+								<h1>An international<br />March for Science.</h1>
+								<p>A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
+								<Link to="/case-studies/march-for-science-redesign" className="link">View case study</Link>
+							</div>
+							</div>
+						<div className="col-xs-12 col-md-6 first-xs last-md">
+							<div className="box images">
+
+								<img src="../images/Icon-Gradient.svg" className="top" />
+								<img src="../images/mfs-square.png" className="hero" />
+								<img src="../images/Icon-Pattern.svg" className="pattern" />
+							</div>
+						</div>
+					</div>
+					<div className="slider-numbers">
+						<ul>
+							<li>01</li>
+							<li className="active">02</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div>
+		</Swiper>
 	</section>
 	<section className="logo-slider">
 		<div className="container">
