@@ -6,10 +6,15 @@ import ServicesSlider from "components/ServicesSlider"
 import "styles/main.scss"
 import { Link } from "gatsby"
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
-
+import { Helmet } from "react-helmet"
 
 export default () => (
   <div>
+  	<Helmet>
+      <meta charSet="utf-8" />
+      <title>Integrated Marketing Partners | Social Revolt Agency</title>
+      <link rel="canonical" href="https://practical-galileo-bb3c83.netlify.com/" />
+    </Helmet>
     <Header /> 
 
     <section className="masthead">
