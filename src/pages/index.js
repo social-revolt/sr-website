@@ -66,10 +66,10 @@ export default () => (
 			<div className="row middle-md top-xs">
 				<div className="col-xs-12 col-md-6 last-xs first-md">
 					<div className="box">
-						<h3 data-aos="fade-up">Client Solutions in Action</h3>
-						<h1 data-aos="fade-up">A brand built on <br />influencer innovation.</h1>
-						<p data-aos="fade-up">A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
-						<Link to="/case-study" data-aos="fade-up" data-aos-delay="300" href="" className="link">View case study</Link>
+						<h3>Client Solutions in Action</h3>
+						<h1>A brand built on <br />influencer innovation.</h1>
+						<p>A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
+						<Link to="/case-studies/rewardstyle-redesign" className="link">View case study</Link>
 					</div>
 					</div>
 				<div className="col-xs-12 col-md-6 first-xs last-md">
