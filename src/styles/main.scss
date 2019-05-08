@@ -45,14 +45,14 @@ html {
 	margin: 0px !important;
 	max-width: 100%;
 	width: 100%;
-	overflow-x: hidden;
+	// overflow-x: hidden;
 	body {
 		position: relative;
 		margin: 0px;
 		max-width: 100%;
 		width: 100%;
-		overflow-x: hidden;
-		overflow-y: visible;
+		// overflow-x: hidden;/
+		// overflow-y: visible;
 		header {
 			position: absolute;
 			top: 0px;
@@ -343,6 +343,9 @@ html {
 
 .what-we-do {
 	padding-bottom: 128px;
+	.mobile {
+		display: none;
+	}
 }
 
 .case-study-slider {
@@ -548,8 +551,14 @@ html {
 			}
 			.what-we-do {
 				padding-left: 12% !important;
+				.mobile {
+					display: block;
+				}
+				.desktop {
+					display: none;
+				}
 				.swiper-container {
-					overflow: visible;
+					// overflow: visible;
 					.swiper-wrapper {
 						.swiper-slide {
 						}
