@@ -2,6 +2,7 @@ import React from "react"
 import Header from "components/header"
 import Footer from "components/footer"
 import { Link } from "gatsby"
+import "styles/main.scss"
 import { Helmet } from "react-helmet"
 import CaseStudySlider  from "components/CaseStudySlider"
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
