@@ -32,7 +32,7 @@ export default () => (
 			</div>
 		</section>
 	    <section className="mission">
-			<img src="../images/message.svg" className="image" />
+
 			<div className="container">
 				<div className="row middle-xs">
 					<div className="col-xs-12 col-md-9 col-md-offset-3">
