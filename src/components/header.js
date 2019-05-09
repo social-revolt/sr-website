@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import ModalMenu from "components/ModalMenu"
 import { HamburgerSpring } from 'react-animated-burgers'
 
 
@@ -9,12 +10,13 @@ class Header extends Component {
   }
 	toggleButton = () => {
   	this.setState({
-  	  isActive: !this.state.isActive
+  	  isActive: !this.props.isActive
   	})
 	}
 
 	render() {
     return (
+      <>
     	<header>
     		<div className="container">
     			<div className="row middle-xs">
@@ -36,6 +38,8 @@ class Header extends Component {
     			</div>
     		</div>
     	</header>
+      <ModalMenu isActive={this.state.isActive}></ModalMenu>
+      </>
     )
   }
 }

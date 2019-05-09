@@ -37,6 +37,126 @@ font-family: "Super";
     z-index: -1;
 }
 
+.menuModal {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: -1;
+	opacity: 0;
+	&.true {
+		z-index: 9;
+		opacity: 1;
+	}
+	.row.content {
+		height: 100vh;
+	}
+	.menu {
+		ul {
+			padding: 0px;
+			margin: 0px 0px 96px;
+			list-style-type: none;
+			li {
+				padding: 0px;
+				line-height: 80px;
+				a {
+					font-size: 72px;
+					font-family: "Super";
+				}
+			}
+		}
+	}
+	.talk {
+		.box {
+			position: relative;
+			z-index: 6;
+			padding-bottom: 128px;
+			padding-left: 48px;
+		}
+		h1 {
+			color: #fff;
+			font-size: 56px;
+			line-height: 64px;
+		}
+		p {
+			color: #fff;
+			font-size: 18px;
+			line-height: 26px;
+			max-width: 75%;
+		}
+		ul.address {
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px 0px 40px;
+			li {
+				color: #fff;
+				margin: 0px;
+				font-family: "Semibold";	
+				font-size: 16px;
+				line-height: 24px;
+				a {
+					color: #Fff;
+					margin: 0px;
+					font-size: 16px;
+					line-height: 24px;
+					font-family: "Semibold";
+				}
+			}
+		}
+		ul.social {
+			margin:20px 0px 0px;
+			padding: 0px;
+			li {
+				display: inline-block;
+				margin: 0px 16px 0px 0px;
+				a {
+					color: #fff;
+					font-size: 20px;
+				}
+			}
+		}
+		a {
+			color: #fff;
+			// margin-bottom: 64px;
+			display: block;
+			font-size: 20px;
+		}
+	}
+	.bg {
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		height: 100%;
+		width: 100%;
+		background: url('../images/bg.jpg') no-repeat center center; background-size: cover; -webkit-background-size: cover;
+	}
+	.container {position: relative;}
+	.header-menu {
+		padding-top: 64px;
+		position: absolute;
+	}
+	span {
+		background: #fff;
+		height: 2px !important;
+		z-index: 9;
+		// opacity: 0;
+		&::before {
+			background: #fff;
+			height: 2px !important;
+		}
+		&::after {
+			background: #fff;
+			opacity: 1;
+			height: 2px !important;
+		}
+	}
+
+}
+
 *{
 	font-family: 'Graphicka';
 }
@@ -135,6 +255,69 @@ html {
 
 html {
 	body {
+		.services-archive {
+			.masthead {
+				height: 60vh;
+			}
+			.service {
+				margin: 120px 0px;
+				&:nth-of-type(even) {
+					.content {
+						.box {
+							padding-left: 3%;
+						}
+					}
+				}
+				h2 {
+					font-size: 72px;
+					font-weight: 300;
+				}
+				p {
+					max-width: 90%;
+				}
+				a {
+					margin-top: 32px;
+					color: #000;
+					display: inline-block;
+					font-size: 16px;
+					text-transform: uppercase;
+					font-family: 'Semibold';
+					font-weight: 600;
+					margin-bottom: 24px;
+					position: relative;
+					&::after {
+						content: '';
+						left: 108%;
+						position: absolute;
+						width: 150px;
+						height: 2px;
+						top: 45%;
+						background: #F51AA4;
+					}
+
+				}
+				img {box-shadow: 0 16px 32px 0 rgba(10,11,15,0.20);
+					-webkit-box-shadow: 0 16px 32px 0 rgba(10,11,15,0.20); }
+			}
+		}
+		.service-interior {
+			h2 {
+				font-weight: 300 !important;
+			}
+			.process {
+				padding: 120px 0px;
+			}
+			.block {
+				margin: 16px 0px;
+
+				.box {
+
+					padding: 12%;
+					box-shadow: 0 16px 32px 0 rgba(10,11,15,0.20);
+					-webkit-box-shadow: 0 16px 32px 0 rgba(10,11,15,0.20); 
+				}
+			}
+		}
 		.case-study {
 			.interior-masthead {
 				margin-top: -32px;
@@ -293,6 +476,56 @@ html {
 	margin: 0 4%;
 	width: 92%;
 
+}
+
+.interior-masthead {
+	background: #000;
+	position: relative;
+	overflow: hidden;
+	margin-top: -32px;
+	video {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		object-fit: cover
+	}
+	.row {
+		min-height: 60vh;
+		position: relative;
+		z-index: 5;
+		h1 {
+			color: #fff;
+			margin-bottom: 24px;
+		}
+		p {
+			color: #fff;
+			margin-bottom: 64px;
+			font-size: 18px;
+		}
+		ul {
+			margin:0px;
+			padding: 0px;
+			li {
+				display: inline-block;
+				margin: 0px 16px 0px 0px;
+				a {
+					color: #fff;
+					font-size: 20px;
+				}
+			}
+		}
+		a {
+			color: #fff;
+			margin-bottom: 64px;
+			display: block;
+			font-size: 20px;
+		}
+	}
 }
 
 .masthead {
