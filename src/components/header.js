@@ -23,7 +23,7 @@ class Header extends Component {
     				<div className="col-xs-6 col-md-6">
     					<div className="box">
               <Link to="/">
-    						<img src="../images/logo.png" />
+    						<img src="../../images/logo.png" />
               </Link>
     					</div>
     				</div>

@@ -21,7 +21,7 @@ class ModalMenu extends Component {
             <div className="col-xs-6 col-md-2">
               <div className="box">
               <Link to="/">
-                <img src="../images/logo-black.png" />
+                <img src="../../images/logo-black.png" />
               </Link>
               </div>
             </div>
