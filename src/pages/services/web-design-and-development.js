@@ -42,8 +42,23 @@ export default () => (
 						</div>
 					</div>
 				</div>
-				<div className="row middle-xs" style={{marginTop: '60px'}}>
+				<div className="row middle-xs" style={{marginTop: '0px'}}>
 					<Swiper>
+						<div className="swiper-slide">
+				        	<div className="row middle-xs">
+								<div className="col-xs-12 col-md-6">
+									<div className="box">
+							        	<img src="https://funnel.io/_themes/funnel/img/funnel-visualisation-og.png" />
+							        </div>
+							    </div>
+							    <div className="col-xs-12 col-md-5 col-md-offset-1">
+									<div className="box">
+										<h2>All Your Marketing Data, Visualized Effectively</h2>
+										<p>Get a clear picture of what is working in your strategy and what is wasted effort. Understand channels successes, discover keywords, audience buying paths and more with our integrated marketing strategy.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 				        <div className="swiper-slide">
 				        	<div className="row middle-xs">
 								<div className="col-xs-12 col-md-6">
@@ -91,7 +106,7 @@ export default () => (
 			        }
 			    ]}
 			    style={{
-			        height: '80vh',
+			        height: '65vh',
 			    }}
 			>
 			</ParallaxBanner>

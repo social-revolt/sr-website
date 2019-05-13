@@ -105,7 +105,7 @@ export default () => (
 				</div>
 				<div className="col-xs-12 col-md-6 last-md first-xs">
 					<div className="box">
-						<img src="http://placehold.it/1000x1000" />
+						<img src="https://media.istockphoto.com/photos/devices-collection-picture-id910535772?s=2048x2048" />
 					</div>
 				</div>
 			</div>
