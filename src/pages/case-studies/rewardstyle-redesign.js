@@ -139,7 +139,7 @@ export default () => (
 				<div className="row top-xs">
 					<div className="col-xs-12 col-md-6 col-md-offset-6">
 						<div className="box">
-							<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+							<p><strong>Launching their site on October 11th</strong>, when moving from a one page site design to a well planned content structure that supported multiple languages with generated URLs, rewardStyle saw a continued lift of 3.5x traffic month over month at time of launch.</p>
 						</div>
 					</div>
 				</div>
@@ -148,7 +148,7 @@ export default () => (
 						<div className="box">
 							<Swiper>
 						        <div className="swiper-slide">
-						        	<img src="../../images/image-1.jpg" />
+						        	<img src="../../images/rs-google.png" />
 						        </div>
 						        <div className="swiper-slide"><img src="../../images/image-1.jpg" /></div>
 						        <div className="swiper-slide"><img src="../../images/image-1.jpg" /></div>
