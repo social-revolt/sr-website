@@ -31,15 +31,53 @@ export default () => (
 				</div>
 			</div>
 		</section>
-	    <section className="mission">
-			<img src="../images/message.svg" className="image" />
+	   <section className="mission-section" style={{marginTop: '120px'}}>
 			<div className="container">
 				<div className="row middle-xs">
-					<div className="col-xs-12 col-md-9 col-md-offset-3">
+					<div className="col-xs-12 col-md-9">
 						<div className="box">
-							<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed sapien mi. Sed at tortor ac ipsum congue aliquam id vitae lectus. Nunc sit amet sagittis purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra orci consequat lorem tempus pellentesque. Suspendisse ultricies, lectus a consectetur aliquet, velit magna venenatis mi, nec mattis eros felis sed diam. Quisque a ex maximus, posuere tellus non, eleifend metus. </h2>
+							<h3>Websites that get results</h3>
+							<h1>With focus on proof, we lead in partnering for trackable success.</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non libero sit amet dui consectetur fringilla. Praesent laoreet, sapien suscipit mattis ultricies, nulla risus suscipit lacus, eu volutpat enim est ac leo. Nullam at imperdiet augue.</p>
 						</div>
 					</div>
+				</div>
+				<div className="row middle-xs" style={{marginTop: '60px'}}>
+					<Swiper>
+				        <div className="swiper-slide">
+				        	<div className="row middle-xs">
+								<div className="col-xs-12 col-md-6">
+									<div className="box">
+							        	<img src="../../images/rs-google.png" />
+							        </div>
+							    </div>
+							    <div className="col-xs-12 col-md-5 col-md-offset-1">
+									<div className="box">
+										<h2>Increase Google Visibility With Keyword Strategies</h2>
+										<p>Get a clear picture of what is working in your strategy and what is wasted effort. Understand channels successes, discover keywords, audience buying paths and more with our integrated marketing strategy.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="swiper-slide">
+				        	<div className="row middle-xs">
+								<div className="col-xs-12 col-md-6">
+									<div className="box">
+							        	<img src="../../images/rs-channels.png" />
+							        </div>
+							    </div>
+							    <div className="col-xs-12 col-md-5 col-md-offset-1">
+									<div className="box">
+										<h2>Understand All Channels & Activity</h2>
+										<p>Get a clear picture of what is working in your strategy and what is wasted effort. Understand channels successes, discover keywords, audience buying paths and more with our integrated marketing strategy.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				        <div className="swiper-slide">
+				        	<img src="../../images/rs-channels.png" />
+				        </div>
+					</Swiper>					
 				</div>
 			</div>
 		</section>
@@ -53,7 +91,7 @@ export default () => (
 			        }
 			    ]}
 			    style={{
-			        height: '60vh',
+			        height: '80vh',
 			    }}
 			>
 			</ParallaxBanner>
@@ -113,57 +151,6 @@ export default () => (
 	    		</div>
 	    	</div>
 	    </section>
-
-	    <section className="mission-section" style={{marginTop: '120px'}}>
-			<div className="container">
-				<div className="row middle-xs">
-					<div className="col-xs-12 col-md-9">
-						<div className="box">
-							<h3>Integrated Marketing Services</h3>
-							<h1>With focus on proof, we lead in partnering for trackable success.</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non libero sit amet dui consectetur fringilla. Praesent laoreet, sapien suscipit mattis ultricies, nulla risus suscipit lacus, eu volutpat enim est ac leo. Nullam at imperdiet augue.</p>
-						</div>
-					</div>
-				</div>
-				<div className="row middle-xs" style={{marginTop: '60px'}}>
-					<Swiper>
-				        <div className="swiper-slide">
-				        	<div className="row middle-xs">
-								<div className="col-xs-12 col-md-6">
-									<div className="box">
-							        	<img src="../../images/rs-google.png" />
-							        </div>
-							    </div>
-							    <div className="col-xs-12 col-md-5 col-md-offset-1">
-									<div className="box">
-										<h2>Increase Google Visibility With Keyword Strategies</h2>
-										<p>Get a clear picture of what is working in your strategy and what is wasted effort. Understand channels successes, discover keywords, audience buying paths and more with our integrated marketing strategy.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="swiper-slide">
-				        	<div className="row middle-xs">
-								<div className="col-xs-12 col-md-6">
-									<div className="box">
-							        	<img src="../../images/rs-channels.png" />
-							        </div>
-							    </div>
-							    <div className="col-xs-12 col-md-5 col-md-offset-1">
-									<div className="box">
-										<h2>Understand All Channels & Activity</h2>
-										<p>Get a clear picture of what is working in your strategy and what is wasted effort. Understand channels successes, discover keywords, audience buying paths and more with our integrated marketing strategy.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-				        <div className="swiper-slide">
-				        	<img src="../../images/rs-channels.png" />
-				        </div>
-					</Swiper>					
-				</div>
-			</div>
-		</section>
 
 	    <Footer></Footer>
 	</div>
