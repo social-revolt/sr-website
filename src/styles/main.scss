@@ -386,9 +386,29 @@ html {
 			}
 			.block {
 				margin: 16px 0px;
-
+				position: relative;
+				&:hover {
+					.block-img {
+						opacity: .3;
+					}
+				}
+				.block-img {
+					position: absolute;
+					left: 0px;
+					bottom: 0px;
+					top: 0px;
+					right: 0px;
+					height: 100%;
+					width: 100%;
+					object-fit: cover;
+					z-index: 0;
+					opacity: 0;
+					transition: all .2s ease-in-out;
+					-webkit-transition: all .2s ease-in-out;
+				}
 				.box {
-
+					position: relative;
+					z-index: 1;
 					padding: 12% 16%;
 					box-shadow: 0 16px 32px 0 rgba(10,11,15,0.20);
 					-webkit-box-shadow: 0 16px 32px 0 rgba(10,11,15,0.20); 

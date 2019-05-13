@@ -150,7 +150,9 @@ export default () => (
 						        <div className="swiper-slide">
 						        	<img src="../../images/rs-google.png" />
 						        </div>
-						        <div className="swiper-slide"><img src="../../images/image-1.jpg" /></div>
+						        <div className="swiper-slide">
+						        	<img src="../../images/rs-channels.png" />
+						        </div>
 						        <div className="swiper-slide"><img src="../../images/image-1.jpg" /></div>
 						    	<div className="swiper-pagination"></div>
 
