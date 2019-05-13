@@ -77,8 +77,8 @@ export default () => (
 	    				</div>
 	    			</div>
 	    			<div className="col-xs-12 col-md-6 block">
-    					<img src="https://d1iwp7f1r8tou0.cloudfront.net/uploads/2017/02/01/screen-shot-2017-02-01-at-133907.png" className="block-img" />
 	    				<div className="box">
+	    					<img src="https://d1iwp7f1r8tou0.cloudfront.net/uploads/2017/02/01/screen-shot-2017-02-01-at-133907.png" className="block-img" />
 	    					<h2>Content Strategy & Copywriting</h2>
 	    					<p>Content writers are the unicorns of our industry. We carefully vet each of our content team members and have them work closely with analysts to build impactful keyword strategies and context driven content plans.</p>
 	    				</div>
@@ -136,7 +136,7 @@ export default () => (
 							    </div>
 							    <div className="col-xs-12 col-md-5 col-md-offset-1">
 									<div className="box">
-										<h2>Increase Google Visibility Keyword Strategies</h2>
+										<h2>Increase Google Visibility With Keyword Strategies</h2>
 										<p>Get a clear picture of what is working in your strategy and what is wasted effort. Understand channels successes, discover keywords, audience buying paths and more with our integrated marketing strategy.</p>
 									</div>
 								</div>
