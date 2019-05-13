@@ -42,7 +42,7 @@ export default () => (
 						</div>
 					</div>
 				</div>
-				<div className="row middle-xs" style={{marginTop: '0px'}}>
+				<div className="row middle-xs" style={{marginTop: '60px'}}>
 					<Swiper>
 						<div className="swiper-slide">
 				        	<div className="row middle-xs">
