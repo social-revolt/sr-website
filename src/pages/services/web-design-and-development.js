@@ -18,7 +18,7 @@ export default () => (
 		<Header />
 		<section className="interior-masthead">
 			<video data-aos="fade-in" autoPlay muted loop id="myVideo">
-			  <source src="../images/stock3.mov" type="video/mp4" />
+			  <source src="../../images/stock3.mov" type="video/mp4" />
 			</video>
 			<div className="container">
 				<div className="row bottom-xs">
@@ -137,7 +137,7 @@ export default () => (
 	    				</div>
 	    			</div>
 	    			<div className="col-xs-12 col-md-6 block">
-	    				<img src="../images/ui-ux.png" className="block-img" />
+	    				<img src="../../images/ui-ux.png" className="block-img" />
 	    				<div className="box">
 	    					<h2>UX/UI Design</h2>
 	    					<p>Build for the long haul. Don't design something that you will replace in a few years. We begin with the brand and build design guidelines that model all the UI produced with the expanding content ecosystem.</p>
@@ -151,7 +151,7 @@ export default () => (
 	    			</div>
 	    			<div className="col-xs-12 col-md-6 block">
 	    				<div className="box">
-	    					<img src="../images/analytics.png" className="block-img" />
+	    					<img src="../../images/analytics.png" className="block-img" />
 	    					<h2>Tracking & Analytics</h2>
 	    					<p>Marketing efforts are not simple. The range from top of funnel sales all the way to retaining current customers for years to come. Let us build the foundational analytics your business needs.</p>
 	    				</div>
