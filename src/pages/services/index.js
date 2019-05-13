@@ -66,7 +66,7 @@ export default () => (
 						<div className="box">
 							<h2>Paid Advertising</h2>
 							<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
-							<Link to="/services/influencer-marketing">Learn more</Link>
+							<Link to="/services/paid-advertising">Learn more</Link>
 						</div>
 					</div>
 					<div className="col-xs-12 col-md-6 first-md last-xs">
@@ -80,7 +80,7 @@ export default () => (
 						<div className="box">
 							<h2>Web Design & Development</h2>
 							<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
-							<Link to="/services/influencer-marketing">Learn more</Link>
+							<Link to="/services/web-design-and-development">Learn more</Link>
 						</div>
 					</div>
 					<div className="col-xs-12 col-md-6 last-md first-xs">
@@ -94,7 +94,7 @@ export default () => (
 						<div className="box">
 							<h2>Social Media Management</h2>
 							<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
-							<Link to="/services/influencer-marketing">Learn more</Link>
+							<Link to="/services/social-media-management">Learn more</Link>
 						</div>
 					</div>
 					<div className="col-xs-12 col-md-6 first-md last-xs">

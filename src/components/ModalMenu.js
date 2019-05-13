@@ -15,7 +15,7 @@ class ModalMenu extends Component {
 
 	render() {
     return (
-    	<div className={"menuModal " + this.state.isActive}>
+    	<div className={"menuModal " + this.props.isActive}>
     		<div className="container">
           <div className="row middle-xs header-menu">
             <div className="col-xs-6 col-md-2">
@@ -28,7 +28,7 @@ class ModalMenu extends Component {
             <div className="col-xs-6 col-md-10 end-xs">
               <div className="box">
                 <HamburgerSpring 
-                  isActive={this.state.isActive} 
+                  isActive={this.props.isActive} 
                   toggleButton={this.toggleButton} 
                   buttonColor="transparent" barColor="white" />
               </div>
@@ -38,7 +38,7 @@ class ModalMenu extends Component {
     				<div className="col-xs-6 col-md-7 menu">
     					<div className="box">
                 <ul>
-                  <li><Link>Work</Link></li>
+                  <li><Link to="/case-studies">Our Work</Link></li>
                   <li><Link>The Agency</Link></li>
                   <li><Link to="/services">Services</Link></li>
                   <li><Link>Careers</Link></li>

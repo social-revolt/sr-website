@@ -65,6 +65,67 @@ export default () => (
 		</div>
 	</section>
 
+	<section className="services-archive">
+		<div className="container">
+			<div className="row middle-xs service">
+				<div className="col-xs-12 col-md-6 first-md last-xs">
+					<div className="box">
+						<h2>Influencer Marketing</h2>
+						<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
+						<Link to="/services/influencer-marketing">Learn more</Link>
+					</div>
+				</div>
+				<div className="col-xs-12 col-md-6 last-md first-xs">
+					<div className="box">
+						<img src="http://placehold.it/1000x1000" />
+					</div>
+				</div>
+			</div>
+			<div className="row middle-xs service">
+				<div className="col-xs-12 col-md-6 last-md first-xs content">
+					<div className="box">
+						<h2>Paid Advertising</h2>
+						<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
+						<Link to="/services/paid-advertising">Learn more</Link>
+					</div>
+				</div>
+				<div className="col-xs-12 col-md-6 first-md last-xs">
+					<div className="box">
+						<img src="http://placehold.it/1000x1000" />
+					</div>
+				</div>
+			</div>
+			<div className="row middle-xs service">
+				<div className="col-xs-12 col-md-6 first-md last-xs">
+					<div className="box">
+						<h2>Web Design & Development</h2>
+						<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
+						<Link to="/services/web-design-and-development">Learn more</Link>
+					</div>
+				</div>
+				<div className="col-xs-12 col-md-6 last-md first-xs">
+					<div className="box">
+						<img src="http://placehold.it/1000x1000" />
+					</div>
+				</div>
+			</div>
+			<div className="row middle-xs service">
+				<div className="col-xs-12 col-md-6 last-md first-xs content">
+					<div className="box">
+						<h2>Social Media Management</h2>
+						<p>Influencer marketing has become the norm for various industries. Brands and agencies engaging with influencers are consolidating their efforts into unified practices across the digital landscape.</p>
+						<Link to="/services/social-media-management">Learn more</Link>
+					</div>
+				</div>
+				<div className="col-xs-12 col-md-6 first-md last-xs">
+					<div className="box">
+						<img src="http://placehold.it/1000x1000" />
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
 	<section className="case-study-slider">
 		<Swiper>
 			<div>
@@ -115,66 +176,6 @@ export default () => (
 
 								<img src="../images/Icon-Gradient.svg" className="top" />
 								<img src="../images/mfs-square.png" className="hero" />
-								<img src="../images/Icon-Pattern.svg" className="pattern" />
-							</div>
-						</div>
-					</div>
-					<div className="slider-numbers">
-						<ul>
-							<li>01</li>
-							<li className="active">02</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div>
-				<div className="bg"></div>
-				<img src="../images/influencersquare.jpg" className="mobile" />
-				<div className="container">
-					<div className="row middle-md top-xs">
-						<div className="col-xs-12 col-md-6 last-xs first-md">
-							<div className="box">
-								<h3>Client Solutions in Action</h3>
-								<h1>Dallas's very best<br />restaurants.</h1>
-								<p>A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
-								<Link to="/case-studies/best-of-big-d-influencer-activations" className="link">View case study</Link>
-							</div>
-							</div>
-						<div className="col-xs-12 col-md-6 first-xs last-md">
-							<div className="box images">
-
-								<img src="../images/Icon-Gradient.svg" className="top" />
-								<img src="../images/best-of-big-d/bobd-message-bubble.png" className="hero" />
-								<img src="../images/Icon-Pattern.svg" className="pattern" />
-							</div>
-						</div>
-					</div>
-					<div className="slider-numbers">
-						<ul>
-							<li>01</li>
-							<li className="active">02</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div>
-				<div className="bg"></div>
-				<img src="../images/influencersquare.jpg" className="mobile" />
-				<div className="container">
-					<div className="row middle-md top-xs">
-						<div className="col-xs-12 col-md-6 last-xs first-md">
-							<div className="box">
-								<h3>Client Solutions in Action</h3>
-								<h1>A multi-market<br />tastemaking event.</h1>
-								<p>A global community of more than 250 team members, 30,000 top-tier influencers, and 1 million brand partners across more than 100 countries.</p>
-								<Link to="/case-studies/culturemap-tastemakers-awards" className="link">View case study</Link>
-							</div>
-							</div>
-						<div className="col-xs-12 col-md-6 first-xs last-md">
-							<div className="box images">
-
-								<img src="../images/Icon-Gradient.svg" className="top" />
-								<img src="../images/best-of-big-d/bobd-message-bubble.png" className="hero" />
 								<img src="../images/Icon-Pattern.svg" className="pattern" />
 							</div>
 						</div>

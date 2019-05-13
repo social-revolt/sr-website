@@ -255,12 +255,89 @@ html {
 
 html {
 	body {
+		.tiles {
+			
+			.tile {
+				margin: 120px auto;
+				.tile-container {
+					position: relative;
+					background: #000;
+					.tile-bg {
+						// position: absolute;
+						object-fit: cover;
+						opacity: .3;
+						transition: all .2s ease-in-out;
+						
+					}
+					.box {
+						position: absolute;
+						bottom: 0px;
+						z-index: 5;
+						display: block;
+						padding: 20px;
+						max-width: 80%;pointer-events: none;
+						h2 {
+							font-weight: 100 !important;
+						}
+						* {
+							color: #fff;
+						}
+						a {
+							margin-top: 32px;
+							color: #fff;
+							display: inline-block;
+							font-size: 16px;
+							text-transform: uppercase;
+							font-family: 'Semibold';
+							font-weight: 600;
+							margin-bottom: 24px;
+							position: relative;
+							&::after {
+								content: '';
+								left: 108%;
+								position: absolute;
+								width: 150px;
+								height: 2px;
+								top: 45%;
+								background: #F51AA4;
+							}
+						}
+
+					}
+				}
+				.tile-content {
+					background: #F5F5EE;
+					position: relative;
+					.list {
+						font-size: 30px;
+						margin-bottom: 60px;
+					}
+					h2 {
+						margin: 0px;
+					}
+					.box {
+						padding-left: 20px;
+					}
+					.bottom {
+						position: absolute;
+						bottom: 0px;
+						// left: 20px;
+					}
+				}
+			}
+		}
 		.services-archive {
 			.masthead {
 				height: 60vh;
 			}
 			.service {
 				margin: 120px 0px;
+				h2 {
+					max-width: 90%;
+				}
+				p {
+
+				}
 				&:nth-of-type(even) {
 					.content {
 						.box {
