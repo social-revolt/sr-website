@@ -17,15 +17,12 @@ export default () => (
 	    </Helmet>
 		<Header />
 		<section className="interior-masthead">
-			<video data-aos="fade-in" autoPlay muted loop id="myVideo">
-			  <source src="../../images/stock3.mov" type="video/mp4" />
-			</video>
 			<div className="container">
 				<div className="row bottom-xs">
 					<div className="col-xs-12 col-md-8">
 						<div className="box content">
 							<h1 data-aos="fade-up">Web Design & Development</h1>
-							<p data-aos="fade-up">Placeholder content</p>
+							<p data-aos="fade-up">User Experience Design Built to Convert</p>
 						</div>
 					</div>
 				</div>
@@ -36,9 +33,9 @@ export default () => (
 				<div className="row middle-xs">
 					<div className="col-xs-12 col-md-9">
 						<div className="box">
-							<h3>Websites that get results</h3>
+							{/*<h3>Websites that get results</h3>*/}
 							<h1>With focus on proof, we lead in partnering for trackable success.</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non libero sit amet dui consectetur fringilla. Praesent laoreet, sapien suscipit mattis ultricies, nulla risus suscipit lacus, eu volutpat enim est ac leo. Nullam at imperdiet augue.</p>
+							<p>We build websites that speak to the mission and purpose of your brand. The final product will articulate your value while clearly defining a path to conversion.</p>
 						</div>
 					</div>
 				</div>
@@ -89,9 +86,6 @@ export default () => (
 								</div>
 							</div>
 						</div>
-				        <div className="swiper-slide">
-				        	<img src="../../images/rs-channels.png" />
-				        </div>
 					</Swiper>					
 				</div>
 			</div>
@@ -137,14 +131,15 @@ export default () => (
 	    				</div>
 	    			</div>
 	    			<div className="col-xs-12 col-md-6 block">
-	    				<img src="../../images/ui-ux.png" className="block-img" />
 	    				<div className="box">
+	    					<img src="../../images/ui-ux.png" className="block-img" />
 	    					<h2>UX/UI Design</h2>
 	    					<p>Build for the long haul. Don't design something that you will replace in a few years. We begin with the brand and build design guidelines that model all the UI produced with the expanding content ecosystem.</p>
 	    				</div>
 	    			</div>
 	    			<div className="col-xs-12 col-md-6 block">
 	    				<div className="box">
+	    					<img src="https://gt.net/blog/wp-content/uploads/2017/01/gtmetrix-report.jpg" className="block-img" />
 	    					<h2>Code Development</h2>
 	    					<p>We believe in new technology, not just proven processes. Using libraries like React and enterprise CMS solutions we can create lightning fast web and mobile experiences that are feature rich and semantically driven.</p>
 	    				</div>

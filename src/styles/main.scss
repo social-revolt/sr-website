@@ -588,7 +588,8 @@ html {
 }
 
 .interior-masthead {
-	background: #000;
+	background-image: linear-gradient(135deg, #212544 0%, #160000 100%);
+	-webkit-background-image: linear-gradient(135deg, #212544 0%, #160000 100%);
 	position: relative;
 	overflow: hidden;
 	margin-top: -32px;
